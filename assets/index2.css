@@ -1,0 +1,481 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #E7E9ED;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.showcawse .showcase-img, .showcase .showcase-text {
+  max-height: 40rem!important;
+}
+
+@media (min-width: 1024px) {
+  .showcase .showcase-text {
+    padding-top: 5rem!important;
+    padding-bottom: 9rem!important;
+  }
+}
+
+@media (min-width:1107px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color:#343a40;
+  background-attachment: fixed;
+  background: url('./images/orange_shirts.jpg') no-repeat center center;
+  background-size: cover;
+  padding-top:8rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+header.masthead .overlay {
+  position: relative;
+  background-image:linear-gradient(rgba(255,0,0,0), rgba(0,0,0,1))!important;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  opacity:.5;
+}
+
+
+header.masthead h1 {
+  font-size:4rem!important;
+}
+
+@media (max-width: 766px) {
+  .header.masthead h1 {
+    margin-bottom:12rem!important;
+
+  }
+}
+
+header.masthead.secondary.contact {
+  position: relative;
+  background-color:#343a40;
+  background: url('./images/family.jpg') no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top:8rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  height: 60%!important;
+  background-attachment: fixed;
+}
+
+header.masthead.secondary.volunteer {
+  position: relative;
+  background-color:#343a40;
+  background: url('./images/finishline.jpg') no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top:8rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  height: 60%!important;
+  background-attachment: fixed;
+}
+
+header.masthead.secondary.about{
+  position: relative;
+  background-color:#343a40;
+  background: url('./images/car.jpg') no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top:8rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  height: 60%!important;
+  background-attachment: fixed;
+}
+
+header.masthead.secondary.news {
+  position: relative;
+  background-color:#343a40;
+  background: url('./images/basketball_number_one.jpg') no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top:8rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  height: 60%!important;
+  background-attachment: fixed;
+}
+
+header.masthead.secondary.donate {
+  position: relative;
+  background-color:#343a40;
+  background: url('./images/thank_you.jpg') no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top:8rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  height: 60%!important;
+  background-attachment: fixed;
+}
+
+header.masthead.secondary .overlay {
+  position: absolute;
+  background-image:linear-gradient(rgba(255,0,0,0), rgba(0,0,0,1))!important;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  opacity:.5;
+}
+
+header.masthead.secondary h1 {
+  font-size:4rem!important;
+  padding-top: 4rem!important;
+}
+
+@media (min-width:768px) {
+  header.masthead {
+    padding-top:12rem;
+    padding-bottom:12rem;
+  }
+  header.masthead h1 {
+    font-size:4rem;
+  }
+}
+
+.navbar-brand {
+  padding-right: 2rem;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  align-content: center;
+  text-align: center;
+  position: fixed;
+  z-index: 1000;
+  background-color: #3F598A!important;
+}
+
+#news {
+  text-align: center;
+}
+
+
+.fa-facebook-square, .fa-envelope-square {
+  color: #92DCE5;
+}
+
+#footer i {
+  padding: 5px;
+}
+
+#home-title {
+  text-align: center;
+}
+
+body {
+  padding-bottom: 60px;
+}
+
+.card {
+  height: 100%;
+}
+
+.img-fluid {
+  width: 700px;
+}
+
+footer.footer {
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+#wide-cards .row {
+  padding-top: 4rem!important;
+  padding-bottom: 4rem!important;
+}
+
+#wide-cards {
+  padding-bottom: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.center {
+  margin: auto;
+}
+
+img:hover {
+  opacity:.5;
+}
+
+#news-cards img:hover {
+  opacity: 1!important;
+}
+.purpose h1 {
+  text-align: center;
+  font-size: 4rem!important;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.align-center {
+  text-align: center!important;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.vol {
+  margin-right: 20px!important;
+  margin-left: 20px!important;
+}
+
+.background-shade {
+  background: #AEB4C1;
+  color: #EEE5E9;
+}
+
+.navbar {
+  background: #3F598A!important;
+  box-shadow: 0 5px 15px rgba(0,0,0, .4);
+  position: fixed!important;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-brand img {
+  height: 8vh;
+}
+
+.nav-link {
+  color: #92DCE5!important;
+  align-items: baseline;
+}
+
+.nav-link:hover {
+  color: #E7E9ED!important;
+}
+
+.btn-primary {
+  background: #92DCE5!important;
+  color: #2C497F!important;
+  border-color: #92DCE5!important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0, .4);
+}
+
+.btn-primary:hover, .btn-primary.home:hover {
+background-color: #85C8D1!important;
+border-color: #85C8D1!important;
+color: white!important;
+box-shadow: 0 5px 15px rgba(0,0,0, 1);
+}
+
+.btn-primary.home {
+  background: #92DCE5!important;
+  color: #2C497F!important;
+  border-color: #92DCE5!important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0, .8);
+  z-index: 1!important;
+  position: absolute;
+}
+
+#news-cards {
+  padding-top: 6rem!important;
+  padding-bottom: 6rem!important;
+  padding-left: 6rem!important;
+  padding-right: 6rem!important;
+}
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contact-us {
+  position: absolute;
+  bottom: 0!important;
+  }
+
+.news {
+  text-align: center;
+  padding-top: 40px;
+  background-color: #92DCE5;
+  color: #2C497F;
+  padding-bottom: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-background {
+  background-color: #ffff!important;
+  width: 80%!important;
+  margin: auto;
+}
+
+.about {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.photo-2 {
+  margin-top: 2rem;
+}
+
+li {
+  padding-bottom: 10px;
+}
+.test {
+  position: absolute;
+}
+
+
+.header {
+  position: relative;
+  background-color:#343a40;
+  background-attachment: fixed;
+  background: url('./images/orange_shirts.jpg') no-repeat center center;
+  background-size: cover;
+  padding-top:12rem;
+  padding-bottom:8rem;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.header h1 {
+  position: absolute;
+  top: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  color: #ffff;
+  z-index: 1;
+  text-shadow: 2px 2px 2px #464C57;
+  margin-bottom: 30px!important;
+  font-size:4rem!important;
+}
+
+.header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #3D2B56, #CCF5AC);
+  opacity: 0.5;
+
+}
+
+
+
+
+  .main-header {
+    position: relative;
+    background-color:#343a40;
+    background-attachment: fixed;
+    background: url('./images/orange_shirts.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top:35rem;
+    padding-bottom:8rem;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+
+
+  .main-header h1 {
+    font-size:4rem!important;
+    color: #ffff;
+    text-shadow: 2px 2px 2px #464C57;
+    z-index: 1;
+    position: relative;
+    top: 2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .main-header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0,0,0,1));
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  .sidebar {
+    background-color: #E7E9ED;
+    left:0;
+    margin-bottom: 80px;
+    width: 100%;
+    position: absolute;
+    z-index: 300!important;
+    text-align: center;
+    box-shadow: 5px 0 10px rgba(0,0,0, .4);
+    padding-bottom: 3rem;
+    padding-top: 60px;
+  }
+
+
+  .sidebar img {
+    margin-top: 3rem!important;
+  }
+
+.slideshow {
+  height: 15rem!important;
+}
+  .container-fluid {
+    width: 100%!important;
+  }
+
+  .col {
+    right: 0!important;
+  }
+
+  .index {
+    padding: 0;
+  }
+  .fadein { position:relative; width:500px; height:332px; }
+  .fadein img { position:absolute; left:0; top:0; }
+
+  .fixed {  position: fixed; top: 0; }
